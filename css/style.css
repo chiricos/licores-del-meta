@@ -1,0 +1,71 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('/images/background.jpg') no-repeat;
+    background-size: cover;
+}
+
+header{
+    background: linear-gradient(to bottom,#7F7F7F ,#464642 100%);
+}
+
+.section-header-up{
+    background: linear-gradient(to bottom,#000 ,#464642 100%);
+    height: 15px;
+    width: 100%;
+}
+
+.menu-header{
+    margin: auto;
+    width:980px;
+}
+
+.menu-header figure, .menu-header div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menu-header figure{
+    height: 48px;
+    width: 300px;
+}
+
+.menu-header figure img{
+    height: 100%;
+    width: 100%;
+}
+
+.content-menu{
+    width: 595px;
+}
+
+nav{
+    float: right;
+    width: 514px;
+}
+
+nav a{
+    color: white;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 34px 8px;
+    opacity: 0.8;
+}
+
+.content-social{
+    position: fixed;
+    right: 17px;
+    top: 132px;
+    width: 32px;
+}
+
+.wrapper{
+    background: yellowgreen;
+    margin: auto;
+    width: 980px;
+}
