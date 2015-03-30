@@ -7,7 +7,9 @@
     <link rel="stylesheet" href='css/normalize.min.css'/>
     <link rel="stylesheet" href='css/style.css'/>
 
+    <script src='js/jquery-1.11.2.min.js'></script>
     <script src='js/script.js'></script>
+
 
     <!-- Humans
     <link type="text/plain" rel="author" href="{{asset('humans.txt')}}"/>-->
@@ -26,14 +28,59 @@
             <div class="content-menu">
                 <nav>
                     <a href="">INICIO</a>
-                    <a href="">LA EMPRESA</a>
-                    <a href="">PRODUCTOS</a>
-                    <a href="">DISTRIBUIDORES</a>
-                    <a href="">CONTÁCTENOS</a>
+                    <a class="empresa" href="">LA EMPRESA</a>
+                    <a class="productos" href="">PRODUCTOS</a>
+                    <a href="">PARTICIPACIÓN CIUDADANA</a>
                 </nav>
             </div>
         </section>
     </header>
+
+    <section class="menu-empresa hidden">
+        <div>
+            <p>Unidad de Licores del Meta</p>
+            <article>
+                <p>Información institucional.</p>
+                <section class="content-menu-empresa section-empresa">
+                    <a href="">Historia</a>
+                    <a href="">Objetivo</a>
+                    <a href="">Organigrama</a>
+                    <a href="">Estados Financieros</a>
+                </section >
+
+                <section class="content-menu-empresa">
+                    <a href="">Mision Vision</a>
+                    <a href="">Presupuestos</a>
+                    <a href="">Plan Anticorrupción</a>
+                    <a href="">Control Interno</a>
+                </section>
+            </article>
+        </div>
+    </section>
+
+    <section class="menu-productos hidden">
+                <section class="content-menu-productos ">
+                    <figure>
+                        <img src="images/mini1.png" />
+                    </figure>
+                    <div>
+                        <span>Aguardiente Llanero</span>
+                        <p>Tradicional</p>
+                    </div>
+                </section >
+
+                <section class="content-menu-productos">
+                    <figure>
+                        <img src="images/mini2.png" />
+                    </figure>
+                    <div>
+                        <span>Aguardiente Llanero</span>
+                        <p>Tapa Azul</p>
+                    </div>
+                </section>
+    </section>
+
+    </section>
 
     <section class="content-social">
         <img src="images/facebook.png">
