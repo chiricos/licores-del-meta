@@ -3,6 +3,7 @@
 <head>
     <title>Unidad de licores del meta</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
     <link rel="stylesheet" href='css/normalize.min.css'/>
     <link rel="stylesheet" href='css/style.css'/>
@@ -69,7 +70,7 @@
                     </div>
                 </section >
 
-                <section class="content-menu-productos">
+                <section class="content-menu-productos ">
                     <figure>
                         <img src="images/mini2.png" />
                     </figure>
@@ -82,7 +83,7 @@
 
     </section>
 
-    <section class="content-social">
+    <section class="content-social hidden">
         <img src="images/facebook.png">
         <img src="images/twitter.png">
         <img src="images/youtube.png">
