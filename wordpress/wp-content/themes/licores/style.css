@@ -92,6 +92,7 @@ nav a{
     top: 77px;
     border: 10px solid;
     border-image: linear-gradient(#4D4D4A , #000) 14% stretch;
+    z-index: 2;
 
 }
 
@@ -135,6 +136,7 @@ nav a{
     top: 77px;
     border: 10px solid;
     border-image: linear-gradient(#4D4D4A , #000) 14% stretch;
+    z-index: 2;
 
 }
 
@@ -176,8 +178,65 @@ nav a{
 }
 
 .wrapper{
-    background: yellowgreen;
-    margin: auto;
-    width: 980px;
+    margin-left: 24%;
+      width: 980px;
+      min-height: 100%;
+      top: 89px;
+      position: fixed;
 }
 
+.content-wrapper section{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.content-img{
+	margin: 35px 6px;
+}
+
+.content-control{
+	width: 680px;
+}
+
+.content-control figure{
+	  margin: 7px 3px -11px;
+}
+
+.img-table{
+	   margin-bottom: -10px;
+}
+
+.p-table{
+	  font-size: 21px;
+  height: 24px;
+  padding: 10px 10px;
+  font-weight: 900;
+}
+
+.content-control img,.content-control p{
+	display: inline-block;
+}
+
+.control-income{
+	border-top: 2px solid rgba(82, 82, 78, 0.65);
+	padding-left: 30px
+}
+
+.control-income p{
+	width: 100%;
+}
+
+.control-income section{
+	  background: rgba(111, 109, 109, 0.2);
+	  width: 270px;
+	  padding: 0px 7px 25px 20px;
+	  margin-left: 10px
+}
+
+.control-income section a{
+	text-decoration: none;
+	  background: rgb(79, 79, 75);
+	  color: white;
+	  margin-left: 10px;
+	  padding: 5px 20px;
+}

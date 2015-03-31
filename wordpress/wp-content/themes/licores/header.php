@@ -89,7 +89,28 @@
 </section>
 
 <div class="wrapper">
-
+    <div class="content-wrapper">
+        <section>
+            <figure class="content-img">
+                <img src="<?php bloginfo('template_url'); ?>/images/llaneroaguardiente.png" />
+            </figure>
+        </section>
+        <section class="content-control">
+            <figure>
+                <img class="img-table" src="<?php bloginfo('template_url'); ?>/images/table.png">
+                <p class="p-table">Control interno</p>
+            </figure>
+            <div class="control-income">
+                <p>La unidad de licores del Meta presenta el informe de Control Interno.</p>
+                <section>
+                    <p>Control Interno</p>
+                    <a href="">2013</a>
+                    <a href="">2014</a>
+                    <a href="">2015</a>
+                </section>
+            </div>
+        </section>
+    </div>
 </div>
 </body>
 </html>

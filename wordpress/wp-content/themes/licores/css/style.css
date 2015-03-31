@@ -160,7 +160,9 @@ nav a{
 }
 
 .wrapper{
-    background: yellowgreen;
-    margin: auto;
-    width: 980px;
+      margin-left: 24%;
+      width: 980px;
+      min-height: 100%;
+      top: 89px;
+      position: fixed;
 }
