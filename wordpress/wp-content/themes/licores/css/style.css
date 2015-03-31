@@ -74,7 +74,7 @@ nav a{
     position: fixed;
     padding: 0px 15px;
     left: 50%;
-    top: 77px;
+    top: 125px;
     border: 10px solid;
     border-image: linear-gradient(#4D4D4A , #000) 14% stretch;
 
@@ -116,7 +116,7 @@ nav a{
     min-height: 145px;
     position: fixed;
     left: 50%;
-    top: 77px;
+    top: 125px;
     border: 10px solid;
     border-image: linear-gradient(#4D4D4A , #000) 14% stretch;
 
@@ -155,7 +155,7 @@ nav a{
 .content-social{
     position: fixed;
     right: 17px;
-    top: 132px;
+    top: 140px;
     width: 32px;
 }
 
